@@ -12,7 +12,7 @@ export class ProductData implements InMemoryDbService {
         description: "48-inch",
         price: 29999.99,
         starRating: 3.2,
-        tags: ["Bed Room", "Living Room", "home"]
+        tags: ["Bed Room", "Living Room", "Home"],
       },
       {
         id: 2,
@@ -21,7 +21,7 @@ export class ProductData implements InMemoryDbService {
         releaseDate: "March 18, 2020",
         description: "Monitor COVID-19 Display",
         price: 32000.99,
-        starRating: 4.2
+        starRating: 4.2,
       },
       {
         id: 5,
@@ -31,7 +31,7 @@ export class ProductData implements InMemoryDbService {
         description: "Curved claw steel hammer",
         price: 99.99,
         starRating: 4.8,
-        tags: ["tools", "hammer", "construction"]
+        tags: ["tools", "hammer", "construction"],
       },
       {
         id: 8,
@@ -40,7 +40,7 @@ export class ProductData implements InMemoryDbService {
         releaseDate: "March 15, 2020",
         description: "15-inch steel blade hand saw",
         price: 110.55,
-        starRating: 3.7
+        starRating: 3.7,
       },
       {
         id: 10,
@@ -49,8 +49,8 @@ export class ProductData implements InMemoryDbService {
         releaseDate: "January 15, 2020",
         description: "Standard two-button video game controller",
         price: 3499.95,
-        starRating: 4.6
-      }
+        starRating: 4.6,
+      },
     ];
     return { products };
   }

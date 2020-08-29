@@ -5,7 +5,7 @@ import { ProductService } from "./product.service";
 
 @Component({
   templateUrl: "./product-table.component.html",
-  styleUrls: ["./product-table.component.css"]
+  styleUrls: ["./product-table.component.css"],
 })
 export class ProductListComponent implements OnInit {
   pageTitle = "Product Table";
@@ -17,10 +17,10 @@ export class ProductListComponent implements OnInit {
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe({
-      next: products => {
+      next: (products) => {
         this.products = products;
       },
-      error: err => (this.errorMessage = err)
+      error: (err) => (this.errorMessage = err),
     });
   }
 }
