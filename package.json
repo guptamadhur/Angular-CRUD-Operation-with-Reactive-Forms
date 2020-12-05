@@ -1,6 +1,14 @@
 {
   "name": "angular-crud",
   "version": "0.0.0",
+  "private": true,
+  "author": "Madhur Gupta",
+  "license": "MIT",
+  "homepage": "https://guptamadhur.github.io/Angular-CRUD-Operation-with-Reactive-Forms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guptamadhur/Angular-CRUD-Operation-with-Reactive-Forms.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
@@ -9,7 +17,6 @@
     "test": "ng test",
     "lint": "ng lint"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^10.0.14",
     "@angular/common": "^10.0.14",
